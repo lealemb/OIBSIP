@@ -35,8 +35,6 @@ body {
   min-width: 320px;
   width: 100%;
   height: auto;
-  box-shadow: -5px -5px 250px 0px rgba(255, 255, 255, 0) inset;
-  backdrop-filter: blur(21px);
 }
 
 .title {
@@ -88,10 +86,6 @@ input:focus {
   flex-direction: column;
   width: 46%;
 }
-option {
-  background-color: #399ce7;
-  color: #f6f6f6;
-}
 #convert-btn {
   background-color: #007AFF;
   border: none;
@@ -107,15 +101,4 @@ option {
 }
 #convert-btn:hover {
   background: #112ff5;
-}
-
-/* Add a right margin to each icon */
-
-.fa {
-  margin-left: -12px;
-  margin-right: 8px;
-}
-
-.loading {
-  display: none;
 }
